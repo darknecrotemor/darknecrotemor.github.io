@@ -1,0 +1,45 @@
+Año Caso,Departamento,Municipio,EDAD,Causa,Procedencia,Escolaridad,Estado Civil,Ocupación,Raza,Seg. Social,Nacidos Vivos
+2010,Caldas,La Dorada,30,ABRUPTIO PLACENTA,Urbano,Sin información  ,Soltera,SIN INFORMACION,Afrocolombiano,Subsidiado,1209
+2010,Caldas,Risaralda,24,ANEMIA CRONICA,Urbano,Sin información  ,Unión Permanente,SIN INFORMACION,Otro,No asegurado,136
+2010,Caldas,Manizales,37,COAGULOPATIA DE CONSUMO,Urbano,Primaria,Unión Permanente,AMA DE CASA,Afrocolombiano,Subsidiado,4009
+2010,Caldas,Manizales,32,CRISIS EPILEPTICA,Urbano,Primaria,Casada,SIN INFORMACION,Otro,Contributivo,4009
+2010,Caldas,Chinchiná,19,NEUMONIA,Urbano,Secundaria,Unión Permanente,AMA DE CASA,Otro,Contributivo,742
+2010,Caldas,Samaná,18,ACCIDENTE CEREBROVASCULAR,Urbano,Secundaria,Soltera,SIN INFORMACION,Otro,Subsidiado,265
+2010,Caldas,Pensilvania,32,CRISIS EPILEPTICA,Rural,Primaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,252
+2010,Caldas,Aranzazu,32,HEMORRAGIA UTERINA,Rural,Secundaria,Soltera,AMA DE CASA,Otro,Subsidiado,160
+2011,Caldas,Neira,23,CANCER DE MAMA  CON METASTASIS,Urbano,Sin información  ,Soltera,SIN INFORMACION,Otro,Subsidiado,234
+2011,Caldas,Manizales,22,ABORTO SEPTICO RETENIDO,Urbano,Secundaria,Unión Permanente,SIN INFORMACION,Otro,Contributivo,3690
+2011,Caldas,Manizales,33,MUERTE OBSTETRICA DE CAUSA NO ESPECIFICADA,Urbano,Profesional,Casada,PROFESORA,Otro,Excepción,3690
+2011,Caldas,Manizales,34,PREECLAMPSIA SEVERA,Urbano,Profesional,Casada,PROFESIONALES EN CIENCIAS DE LA SALUD Y AFINES,Otro,Contributivo,3690
+2011,Caldas,Manizales,26,HEMORRAGIA INTRAENCEFALICA ,Urbano,Secundaria,Casada,AMA DE CASA,Otro,Contributivo,3690
+2011,Caldas,Riosucio,18,SINDROME DE HELLP,Urbano,Secundaria,Unión Permanente,ESTUDIANTE,ROM (Gitano),Subsidiado,616
+2011,Caldas,Chinchiná,16,DENGUE HEMORRAGICO,Rural,Primaria,Unión Permanente,AMA DE CASA,Indígena,Subsidiado,675
+2011,Caldas,Chinchiná,31,SEPTICEMIA,Urbano,Secundaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,675
+2012,Caldas,Marquetalia,20,EMBARAZO ECTOPICO ROTO,Urbano,Sin información  ,Unión Permanente,AMA DE CASA,Otro,Subsidiado,159
+2012,Caldas,Marquetalia,25,HEMORRAGIA UTERINA,Rural,Primaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,159
+2012,Caldas,La Dorada,18,MUERTE OBSTETRICA DE CAUSA NO ESPECIFICADA,Urbano,Secundaria,Unión Permanente,SIN INFORMACION,Otro,Subsidiado,1340
+2012,Caldas,Villamaría,28,PREECLAMPSIA SEVERA,Urbano,Tecnica,Casada,PROFESIONALES EN CIENCIAS DE LA SALUD Y AFINES,Otro,Contributivo,547
+2012,Caldas,Villamaría,40,PREECLAMPSIA,Urbano,Sin información  ,Casada,AMA DE CASA,Otro,Contributivo,547
+2012,Caldas,La Dorada,19,MUERTE OBSTETRICA DE CAUSA NO ESPECIFICADA,Urbano,Primaria,Unión Permanente,COCINEROS Y AFINES,Otro,Subsidiado,1340
+2012,Caldas,Manizales,22,TROMBOEMBOLISMO PULMONAR MASIVO,Urbano,Secundaria,Soltera,AMA DE CASA,Otro,Subsidiado,3914
+2013,Caldas,Viterbo,17,NEOPLASIA ENDOCRINA MULTIPLE,Urbano,Secundaria,Soltera,ESTUDIANTE,Otro,Subsidiado,121
+2013,Caldas,Manizales,16,SEPSIS DE ORIGEN BILIAR,Urbano,Primaria,Soltera,ESTUDIANTE,Otro,Contributivo,3834
+2014,Caldas,Marquetalia,18,HEMORRAGIA POSCESAREA,Urbano,Secundaria,Soltera,AMA DE CASA,Otro,Subsidiado,141
+2014,Caldas,Villamaría,44,INSUFICIENCIA RESPIRATORIA AGUDA,Urbano,Primaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,561
+2014,Caldas,Chinchiná,29,MIOMETRITIS POSTPARTO,Urbano,Secundaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,620
+2014,Caldas,Chinchiná,38,ENDOMETRITIS AGUDA SEVERA,Urbano,Analfabeta,Unión Permanente,AMA DE CASA,Otro,Subsidiado,620
+2014,Caldas,Manizales,29,DROGOADICCIÓN,Urbano,Profesional,Unión Permanente,SIN INFORMACION,Otro,Contributivo,3747
+2014,Caldas,Manizales,27,ECLAMPSIA,Urbano,Secundaria,Soltera,AMA DE CASA,Otro,No asegurado,3747
+2015,Caldas,San José,15,PLACENTA INCRETA,Urbano,Primaria,Unión Permanente,SIN INFORMACION,Indígena,Subsidiado,60
+2015,Caldas,Aranzazu,18,COAGULACION INTRAVASCULAR,Urbano,Secundaria,Unión Permanente,AMA DE CASA,Otro,Subsidiado,146
+2015,Caldas,La Dorada,35,NEUMONIA,Urbano,Secundaria,Unión Permanente,AMA DE CASA,Otro,Contributivo,1136
+2015,Caldas,La Dorada,19,RETENCION PLACENTARIA,Urbano,Secundaria,Soltera,AMA DE CASA,Otro,Subsidiado,1136
+2015,Caldas,La Dorada,21,NEUMONIA,Urbano,Sin información  ,Unión Permanente,AMA DE CASA,Otro,Subsidiado,1136
+2015,Caldas,Anserma,39,INVERSION UTERINA,Urbano,Sin información  ,Soltera,AMA DE CASA,Otro,Subsidiado,311
+2015,Caldas,Manizales,34,MUERTE OBSTETRICA DE CAUSA NO ESPECIFICADA,Urbano,Primaria,Soltera,SIN INFORMACION,Otro,Subsidiado,3662
+2015,Caldas,Manizales,27,RINOESCLEROMA NASOFARINGEO DE CRECIMIENTO LENTO,Urbano,Secundaria,Casada,OTROS,Otro,Subsidiado,3662
+2016,Caldas,Viterbo,28,ECLAMPSIA,Urbano,Secundaria ,Casada ,SECRETARIA,Otro,No asegurado,57
+2016,Caldas,Anserma,34,ENFERMEDAD DEL COLAGENO,Urbano,Primaria,Unión Permanente ,AMA DE CASA,Otro,Subsidiado,279
+2016,Caldas,Manizales,36,ADENOCARCINOMA MODERADAMENTE DIFERENCIADO DE COLON,Urbano,Profesional,Divorciada,ECONOMISTA,Otro,Contributivo,3622
+2016,Caldas,Manizales,24,OSTEOSARCOMA MIEMBRO SUPERIOR IZQUIERDO,Urbano,Secundaria ,Unión Permanente ,SIN INFORMACION,Otro,Contributivo,3622
+2016,Caldas,La Dorada,19,MUERTE OBSTETRICA DE CAUSA NO ESPECIFICADA,Urbano,Sin información,Viuda,SIN INFORMACION,Otro,Subsidiado,996
