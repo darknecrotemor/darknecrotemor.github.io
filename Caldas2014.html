@@ -115,18 +115,85 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4">
-          <div id="mapLegendDiv"></div>
-        </div>
-        <div class="col-sm-8">
-          <!-- Bootstrap-map-js -->
-          <div id="mapDiv"></div>
+        <div class="col-sm-12">
+         <div class="panel-group" id="accordion0">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#collapseOne0">
+                    Title
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne0" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <h4 id="mapTitle"></h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+     <!-- Legend -->
       <div class="row">
-      <div class="col-sm-12">
-      <table id="example" class="display" cellspacing="0" width="100%"></table>
-      </div>
+        <div class="col-sm-4">
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                    Legend
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div id="mapLegendDiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->    
+        <div class="col-sm-8">
+          <div class="panel-group panel-group-map" id="accordion2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+                    Map
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne2" class="panel-collapse collapse in">
+                <div id="mapPanel" class="panel-body">
+                  <div id="mapDiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-sm-12">
+         <div class="panel-group" id="accordion0">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
+                    Tabla
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne5" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <table id="example" class="display" cellspacing="0" width="100%"></table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div><!-- /.container -->
@@ -149,7 +216,7 @@
           }]
       };
       $.ajax({
-   url:"Caldas2010Mort.csv",
+   url:"Caldas2014Mort.csv",
    dataType:"text",
    success:function(data)
    {
