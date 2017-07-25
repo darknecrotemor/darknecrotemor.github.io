@@ -124,29 +124,112 @@
       </div>
 
       <div class="row">
-        <h4 id="mapTitle"></h4>
-        <br>
+        <div class="col-sm-12">
+         <div class="panel-group" id="accordion0">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#collapseOne0">
+                    Title
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne0" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <h4 id="mapTitle"></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
+     <!-- Legend -->
       <div class="row">
         <div class="col-sm-4">
-          <div id="mapLegendDiv"></div>
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                    Legend
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne1" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div id="mapLegendDiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <!-- Map -->    
         <div class="col-sm-8">
-          <!-- Bootstrap-map-js -->
-          <div id="mapDiv"></div>
+          <div class="panel-group panel-group-map" id="accordion2">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+                    Map
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne2" class="panel-collapse collapse in">
+                <div id="mapPanel" class="panel-body">
+                  <div id="mapDiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-      <div class="col-sm-12">
-      <table id="example" class="display" cellspacing="0" width="100%"></table>
-      </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <div id="chartdiv"></div>
+         <div class="panel-group" id="accordion0">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
+                    Tabla
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne5" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <table id="example" class="display" cellspacing="0" width="100%"></table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-12">
+         <div class="panel-group" id="accordion0">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseOne6">
+                    Tabla
+                  </a>
+                </h4>
+              </div>
+              <div id="collapseOne6" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div id="chartdiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col-sm-12">
+          <div id="chartdiv"></div>
+        </div>
+      </div> -->
 
     </div><!-- /.container -->
     <script type="text/javascript" charset="utf8" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>

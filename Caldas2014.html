@@ -110,11 +110,6 @@
       </div>
 
       <div class="row">
-        <h4 id="mapTitle"></h4>
-        <br>
-      </div>
-
-      <div class="row">
         <div class="col-sm-12">
          <div class="panel-group" id="accordion0">
             <div class="panel panel-default">
@@ -175,6 +170,7 @@
             </div>
           </div>
         </div>
+      </div>
       <div class="row">
         <div class="col-sm-12">
          <div class="panel-group" id="accordion0">
@@ -251,6 +247,7 @@
     // table_data += '</table>';
     $('#example').html(table_data);
     $('#example').DataTable({
+      "scrollX":true,
         "language": {
             "sProcessing":     "Procesando...",
             "sLengthMenu":     "Mostrar _MENU_ registros",
