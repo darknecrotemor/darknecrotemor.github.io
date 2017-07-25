@@ -34,8 +34,8 @@
         margin-bottom: 10px;
       }
 
-      #mapLegendDiv {
-        height: 600px;  
+      /*#mapLegendDiv {
+        height: 300px;  
         overflow: scroll;  
         margin-bottom: 10px;     
       }
@@ -51,6 +51,55 @@
       table {
         border-collapse: ;
         border-spacing: ;
+      }*/
+
+      #mapLegendDiv {
+        height: 300px;  
+        overflow-y: scroll; 
+        margin-bottom: 20px;      
+      }
+
+      #mapTitle {
+        margin-left: 15px;
+      }
+
+      #mapPanel {
+        padding: 0;
+      }
+
+      .panel-group {
+        margin-bottom: 0px;
+      }
+
+      .panel-group-map {
+        margin-bottom: 15px;
+      }
+
+      table {
+        border-collapse: none;
+        border-spacing: none;
+      }
+
+      [class*="col-"] {
+        margin-bottom: 15px;
+      }   
+
+      h2 {margin-top: 0}
+
+      .col-sm-4 {
+        padding-right: 0px;
+      }  
+
+      @media (max-width: 767px) {
+        [class*="col-"] {
+          margin-bottom: 2px;
+        }
+        .container.main {
+          margin-top: 10px;
+        }
+        .col-sm-4 {
+          padding-right: 15px;
+        }
       }
 
     </style>
