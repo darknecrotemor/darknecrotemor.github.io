@@ -36,28 +36,57 @@
     <style type="text/css">
     
       #mapDiv {
-        min-height: 250px; 
-        max-height: 600px; 
-        margin-bottom: 10px;
+        min-height: 400px; 
+        max-height: 600px;
       }
-
+      
       #mapLegendDiv {
-        height: 600px;  
-        overflow: scroll;  
-        margin-bottom: 10px;     
+        height: 200px;  
+        overflow-y: scroll; 
+        margin-bottom: 20px;      
       }
 
       #mapTitle {
         margin-left: 15px;
       }
 
-      body > .container {
-        padding-bottom: 10px;
+      #mapPanel {
+        padding: 0;
+      }
+
+      .panel-group {
+        margin-bottom: 0px;
+      }
+
+      .panel-group-map {
+        margin-bottom: 15px;
       }
 
       table {
-        border-collapse: ;
-        border-spacing: ;
+        border-collapse: none;
+        border-spacing: none;
+      }
+
+      [class*="col-"] {
+        margin-bottom: 15px;
+      }   
+
+      h2 {margin-top: 0}
+
+      .col-sm-4 {
+        padding-right: 0px;
+      }  
+
+      @media (max-width: 767px) {
+        [class*="col-"] {
+          margin-bottom: 2px;
+        }
+        .container.main {
+          margin-top: 10px;
+        }
+        .col-sm-4 {
+          padding-right: 15px;
+        }
       }
 
       #chartdiv
@@ -130,7 +159,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion0" href="#collapseOne0">
-                    Title
+                    Titulo
                   </a>
                 </h4>
               </div>
@@ -152,7 +181,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-                    Legend
+                    Simbología
                   </a>
                 </h4>
               </div>
@@ -172,7 +201,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
-                    Map
+                    Mapa Web
                   </a>
                 </h4>
               </div>
@@ -192,7 +221,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
-                    Tabla
+                    Tabla de origen
                   </a>
                 </h4>
               </div>
@@ -212,7 +241,7 @@
               <div class="panel-heading">
                 <h4 class="panel-title">
                   <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseOne6">
-                    Tabla
+                    Gráfico
                   </a>
                 </h4>
               </div>
