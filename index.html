@@ -529,6 +529,7 @@ jQuery('.chart-input').off().on('input change',function() {
     // table_data += '</table>';
     $('#example').html(table_data);
     $('#example').DataTable({
+        "scrollX": true;
         "language": {
             "sProcessing":     "Procesando...",
             "sLengthMenu":     "Mostrar _MENU_ registros",
