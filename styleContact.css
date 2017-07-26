@@ -6,11 +6,11 @@
   padding-right: 10px;
 }
 
-/*body {
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   background: #829292;
-}*/
+}
 
 *, *:before, *:after {
   margin: 0;
@@ -97,7 +97,7 @@ a {
 #content #left #map {
   height: 388px;
   position: relative;
-  background-image: url("america.png");
+  background-image: url("http://f.cl.ly/items/452R3S1440221Z3m372j/israel.png");
   background-size: cover;
 }
 #content #left #map p {
