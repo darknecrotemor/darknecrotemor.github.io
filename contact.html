@@ -281,9 +281,9 @@
         var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Datos de contacto</h1>'+
+            '<h1 id="firstHeading" class="firstHeading">Contacto</h1>'+
             '<div id="bodyContent">'+
-            '<p><b>Contacto</b>Email:<b>sebasortizn@gmail.com</b>' +
+            '<p>Email:<b>sebasortizn@gmail.com</b>' +
             '</p>'+
             '<p>Más en: <a href="http://umanizales.edu.co/?u_course=especializacion-en-sistema-de-informacion-geografica">'+
             'http://umanizales.edu.co/?u_course=especializacion-en-sistema-de-informacion-geografica</a> '+
@@ -303,22 +303,7 @@
         marker.addListener('click', function() {
           infowindow.open(map, marker);
         });
-
-            // var mapOptions = {
-            //     center: new google.maps.LatLng(4.640304, -74.0620507),
-            //     zoom: 13,
-            //     mapTypeId: google.maps.MapTypeId.HYBRID,
-            //     scrollwheel: false,
-            //     draggable: false,
-            //     panControl: true,
-            //     zoomControl: true,
-            //     mapTypeControl: true,
-            //     scaleControl: true,
-            //     streetViewControl: true,
-            //     overviewMapControl: true,
-            //     rotateControl: true,
-            // };
-            // var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        infowindow.open(map,marker);
         }
         google.maps.event.addDomListener(window, 'load', initialize);
       </script>
