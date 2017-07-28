@@ -171,6 +171,12 @@
         <input placeholder='Asunto' type='text'>
         <textarea placeholder='Mensaje' rows='4'></textarea>
         <input placeholder='Enviar' type='submit'>
+
+        <input id="subject" type="text" placeholder="type your subject here" 
+    class="form-control">
+    <input id="message" type="text" placeholder="type your message here" 
+    class="form-control">
+    <a id="mail-link" class="btn btn-primary">Create email</a>
       </form>
       <p>Correo</p>
       <p class='other entypo-mail'>
@@ -186,7 +192,19 @@
     </div><!-- /.container -->
 
 
-    
+    <script type="text/javascript">
+    function loadEvents() {
+        var mailString;
+        function updateMailString() {
+            mailString = '?subject=' + encodeURIComponent($('#subject').val())
+                + '&body=' + encodeURIComponent($('#message').val());
+            $('#mail-link').attr('href',  'mailto:person@email.com' + mailString);
+        }
+        $( "#subject" ).focusout(function() { updateMailString(); });
+        $( "#message" ).focusout(function() { updateMailString(); });
+        updateMailString();
+    }
+</script>
 
       
 
